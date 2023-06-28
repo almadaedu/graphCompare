@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Graph02 = () => {
+const Bar = () => {
   return (
     <View>
-      <Text>Graph02</Text>
+      <Text>Graph01</Text>
     </View>
   )
 }
 
-export default Graph02
+export default Bar

@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Home = () => {
+const Line = () => {
   return (
     <View>
-      <Text>PieChart</Text>
+      <Text>Graph02</Text>
     </View>
   )
 }
 
-export default Home
+export default Line

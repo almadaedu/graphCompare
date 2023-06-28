@@ -1,7 +1,8 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
-import { AntDesign } from '@expo/vector-icons';import Home from '../screens/Home'
-import Graph01 from '../screens/Graph01'
-import Graph02 from '../screens/Graph02'
+import { AntDesign } from '@expo/vector-icons';
+import Pizza from '../screens/Pizza'
+import Bar from '../screens/Bar'
+import Line from '../screens/Line'
 
 const Tab = createBottomTabNavigator()
 
@@ -9,19 +10,25 @@ export default function TabRoutes() {
     return(
         <Tab.Navigator screenOptions={{headerShown: false}}>
             <Tab.Screen 
-                name='Home'
-                component={Home}
+                name='Pizza'
+                component={Pizza}
                 options={{
                     tabBarIcon: () => <AntDesign name="piechart" size={24} color="black" />
                 }}
             />
             <Tab.Screen 
-                name='Graph01'
-                component={Graph01}
+                name='Bar'
+                component={Bar}
+                options={{
+                    tabBarIcon: () => <AntDesign name="barschart" size={24} color="black" />
+                }}
             />
             <Tab.Screen 
-                name='Graph02'
-                component={Graph02}
+                name='Line'
+                component={Line}
+                options={{
+                    tabBarIcon: () => <AntDesign name="linechart" size={24} color="black" />
+                }}
             />
         </Tab.Navigator>
     )
