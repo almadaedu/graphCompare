@@ -1,9 +1,1 @@
-export const data = [
-    { x: "Mon", y: 150 },
-    { x: "Tue", y: 230 },
-    { x: "Wed", y: 224 },
-    { x: "Thu", y: 218 },
-    { x: "Fri", y: 135 },
-    { x: "Sat", y: 147 },
-    { x: "Sun", y: 260 },
-  ];
+export const data = [50, 10, 40, 95, -4, -24, 85,]

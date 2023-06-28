@@ -9,9 +9,15 @@ export default function Pie() {
 
   return (
     <View style={{ flex: 1, justifyContent: "center" }}>
-        <Text style={{ textAlign: "center", fontSize: 18 }}>
+      <View style={{textAlign: "center", alignItems: "center"}}>
+      <Text style={{ fontSize: 24 }}>
+          Victory Charts
+        </Text>
+        <Text style={{ fontSize: 18 }}>
           Gráfico de Pizza
         </Text>
+      </View>
+
         <VictoryPie colorScale={["tomato", "orange", "gold", "purple", "blue", "red", "pink"]} data={data} />
 
     </View>
